@@ -1,0 +1,39 @@
+h1 {
+    color: darkcyan;
+}
+
+strong, a {
+    color: red;
+}
+
+h2, em, caption {
+    color: purple;
+}
+
+tr, th, td {
+    border: solid 1px black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+div {
+    color: lime;
+}
+
+p:nth-child(2) span {
+    color: hotpink;
+}
+
+thead tr:nth-child(1) th, tbody tr:nth-child(1) th, td strong  {
+    color: yellow;
+}
+
+tbody tr:nth-child(2) th, tfoot tr th {
+    color: red;
+}
+
+tbody tr:nth-child(1n+1) td, td em, p a {
+    color: green;
+}

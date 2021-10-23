@@ -1,0 +1,18 @@
+div {
+  height: 10rem;
+}
+
+.ElPadre {
+  background-color: red;
+  width: 50%;
+}
+
+.ElHijo {
+  background-color: blue;
+  width: 75%;
+}
+
+.ElEspirituSanto {
+  background-color: yellow;
+  width: 75vw;
+}

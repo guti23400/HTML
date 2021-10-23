@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  color: white;
+  height: 100vh;
+  text-align: center;
+}
+
+.red {
+  background-color: blue;
+}
+
+.blue {
+  background-color: red;
+}

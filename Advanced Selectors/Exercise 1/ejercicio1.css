@@ -1,0 +1,45 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+p, a, span, em {
+    text-decoration: underline;
+}
+
+p {
+    color: #555;
+}
+
+a {
+    color: #cc3300;
+}
+
+.primero p {
+    color: #336699;
+}
+
+.primero em {
+    background-color: #FFFFCC;
+    padding: .1em;
+}
+
+.normal span {
+    font-weight: bold;
+}
+
+em.especial {
+    background-color: #ffcc99;
+    border: 1px solid #ff9900;
+    padding: .1em;
+}
+
+p a span em {
+    text-decoration: line-through;
+}
+
+*[class~="resaltado"], *[class~="error"] {
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}

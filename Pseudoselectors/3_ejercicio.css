@@ -1,0 +1,132 @@
+*::selection {
+    background-color: purple;
+    color: white;
+}
+
+header p {
+    font-weight: bold;
+}
+
+ul li strong {
+    text-transform: uppercase;
+}
+
+header + p {
+    color: orange;
+    font-weight: bold;
+}
+
+.container {
+    border: 5px solid orange;
+}
+
+.container p:nth-child(odd) {
+    color: green;
+}
+
+.container p:nth-child(even) {
+    color: orange;
+}
+
+.container p:nth-child(even) {
+    color: blue;
+}
+
+.container p:first-child {
+    color: red;
+}
+
+.container p:nth-child(3) {
+    color: yellow;
+}
+
+.container p:nth-child(3) a {
+    color: red;
+    text-transform: uppercase;
+}
+
+.container p:nth-child(3) a:hover {
+    background-color: grey;
+    text-decoration: none;
+}
+
+.container p:nth-child(3) a:focus{
+    background-color: grey;
+    color: purple;
+    border: 1px purple dashed;
+}
+
+.container p:nth-child(4) {
+    color: purple;
+}
+
+.container p:nth-last-of-type(1) {
+    color: pink;
+}
+
+.container p:nth-child(even) a {
+    color: red;
+    text-transform: uppercase;
+}
+
+.container p::first-line {
+    font-weight: bold;
+}
+
+.container strong{
+    color: red;
+    text-transform: uppercase;
+}
+
+ul ul {
+    border: 3px solid red;
+}
+
+ul ul a {
+    color: yellow;
+    text-transform: uppercase;
+}
+
+#mail-list {
+    border: 2px dashed black;
+    background-color: grey;
+}
+
+ul a {
+    text-transform: uppercase;
+    color: green;
+}
+
+ul a:hover {
+    background-color: darkslategrey;
+}
+
+ul a:focus {
+    border: 2px dashed green;
+}
+
+ul a:active {
+    font-weight: bold;
+    color: purple;
+    border: 2px dashed rgba(128, 0, 128, 0.459);
+}
+
+strong {
+    color: grey;
+}
+
+textarea:focus {
+    color: white;
+    background-color: grey;
+}
+
+div>a {
+    display: block;
+    width: 100%;
+    color: red;
+    text-transform: uppercase;
+}
+
+div>a:hover {
+    background-color: grey;
+}

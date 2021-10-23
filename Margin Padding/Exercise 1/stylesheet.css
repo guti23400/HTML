@@ -1,0 +1,15 @@
+div {
+    width: 200px;
+    height: 100px;
+}
+
+.uno {
+    background-color: lavender;
+    margin-left: 20px;
+}
+
+.dos {
+    background-color: lawngreen;
+    margin-left: 40px;
+    margin-top: -50px;
+}

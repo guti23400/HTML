@@ -1,0 +1,31 @@
+html {
+  width: 20px;
+  height: 20px;
+}
+
+body {
+  width: 30px;
+  height: 30px;
+}
+
+div {
+  margin: 0 auto;
+  font-size: 2em;
+}
+
+.red {
+  background-color: green;
+}
+
+.green {
+  background-color: blue;
+}
+
+.blue {
+  background-color: black;
+}
+
+.black {
+  background-color: red;
+  font-size: 2rem;
+}
